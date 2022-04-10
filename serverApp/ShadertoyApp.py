@@ -12,7 +12,7 @@ from utils import (
 		shaderToy2Snapchat,
 		)
 
-DELIM = "-*-*-*-*-*-*-*-*-*-*-*"
+DELIM = "-*-*-*-*-*-*-*-*-*-*-*-"
 
 app = Flask(__name__)
 CORS(app)

@@ -1,18 +1,46 @@
-precision mediump float;
-out vec4 outColor;
-in vec3 frgColor;
 uniform float iGlobalTime;
-void main() {
-    // Option 1: let the vertex color attribute
-    //           determine the color.
-    //
-    // outColor = vec4(frgColor, 1.0f);
-    // Option 2: specify the color
-    //
-    //outColor = vec4(1.0f,1.0f,0.8f, 1.0f);
-    // Option 3: some position-dependent function
-    //
-    //                        slow spatial period
-    vec3 info = 0.5 + 0.5 * cos(0.1 * gl_FragCoord.xyz * iGlobalTime);
-    outColor = vec4(0.5,0.5,0.5, 1.0f);
+in vec3 frgColor;
+out vec4 outColor;
+precision mediump float;
+//Rainbow Melting - By Sandro Benigno - Jun, 2021
+#define PI radians(180.)
+//2D Rotation Matrix
+mat2 rotate2D(float a){
+    return mat2(-sin(a), cos(a),
+                 cos(a), sin(a));
+}
+//Using polar coords calc in a creative way
+vec2 wave(vec2 v, float r){
+    return vec2(r*cos(v.x),r*sin(v.y));
+}
+void main()
+{
+    // Normalized pixel coordinates (from 0 to 1)
+    vec2 st = gl_FragCoord.xy/vec3(1080,584,1000).xy;
+    float ratio = vec3(1080,584,1000).x / vec3(1080,584,1000).y;
+    //Time tunning
+    float tmp = iGlobalTime / 2.0;
+    //Normalizing ST coords (centered origin)
+    st = st * 2.0 - 1.0;
+    //Correcting the aspect ratio
+    st.x *= ratio;
+    //Rotating by matrix multiplying
+    st *= rotate2D(0.75 * PI * tmp/4.);
+    //Zooming in/out
+    st *= sin(iGlobalTime/4.0 * PI) + 2.0;
+    //Applying the distortion
+    st = wave(st*6.0,0.3);
+    //Base Color
+    vec3 c = vec3(0.0);
+    //Shapping block
+    float dist = distance(st,vec2(cos(tmp*2.0)/2.0,sin(tmp*2.0)/2.0));
+    float r = 0.6;
+    float mask = smoothstep(r+0.5,r-0.5,dist);
+    float distfrac = fract(pow(dist,-1.5)+tmp*4.0);
+    //Coloring with some fractional offsets
+    c.r = fract((1.0 - distfrac)*5.2) * ( 1.0 - mask);
+    c.g = fract((1.0 - distfrac)*2.0) * ( 1.0 - mask);
+    c.b = fract((1.0 - distfrac)*1.5) * ( 1.0 - mask);
+    // Output to screen
+    outColor = vec4(c,1.0);
 }

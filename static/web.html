@@ -17,6 +17,8 @@
 	console.log("Hi! we are on :-)");
   </script>
 
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
@@ -29,6 +31,13 @@
 
 <style>
 /* Popup container - can be anything you want */
+
+
+mark { 
+  background-color: lightgray;
+  color: black;
+}
+
 .popup {
   position: relative;
   display: inline-block;
@@ -55,8 +64,23 @@
   margin-left: -80px;
 }
 
+.popuptext-small {
+  visibility: hidden;
+  width: 70px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
 /* Popup arrow */
-.popup .popuptext::after {
+.popup .popuptext::after .popuptext-small::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -74,6 +98,8 @@
   animation: fadeIn 1s;
 }
 
+
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
@@ -86,7 +112,30 @@
 }
 </style>
 
+<script>
 
+var ActivePopup=false;// Global
+var t = new Date().getTime(); // Global
+
+function show(id) {
+  var y = ["InstallApp", "NativeAvailableVariables", "ShaderToyPortability", "RecordResults"];
+  for (i=0; i<y.length; i++) 
+  {
+    if (y[i] != id)
+    {
+      var x2 = document.getElementById(y[i]);
+      x2.style.display = "none";
+    }
+  }
+  if (id=="") return;
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+</script>
 
 <script>
 // When the user clicks on div, open the popup
@@ -95,9 +144,20 @@ function popper(id) {
   var popup = document.getElementById("pop" + id.toString());
   popup.classList.toggle("show");
 }
+
+
+setInterval(function(){ 
+    //code goes here that will be run every 5 seconds.    
+if (ActivePopup && (new Date().getTime() > t + 1000))
+{ 
+  popper(2);
+  ActivePopup = false;
+  console.log("Deactivated active popup");
+}
+}, 1000);
 </script>
 
-
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
 </head>
 <body>
@@ -105,13 +165,16 @@ function popper(id) {
  <section class="hero is-warning">
 
 <div class="columns is-gapless">
-  <div class="column is-one-fifth">
+<!--  <div class="column is-one-fifth"> -->
+  <div class="column is-1"> 
+
     
   </div>
-  <div class="column is-three-fifths">
+<!--   <div class="column is-two-fifths"> -->
+<div class="column is-7 is-offset-1">
 
 <div class="columns is-gapless">
-<div class="column is-two-thirds">
+<div class="column is-three-quarters">
     <div class="container">
 <br><br>
       <h1 class="title">
@@ -119,23 +182,30 @@ function popper(id) {
 
       </h1>
       <p class="subtitle">
-        Paste code from <a href='https://www.shadertoy.com/'><strong>ShaderToy</strong></a> and send to server, then just run the App!
-
+        Write a fragment shader or paste it from <a href='https://www.shadertoy.com/'><strong>ShaderToy</strong></a>.<br>Send to server and run the App!
       </p>
+
 	
-<br>
-    </div>
+	<i>How to:</i>&nbsp;&nbsp;<a onclick="show('InstallApp')"><i>[Install App]</i></a>&nbsp;&nbsp;<a onclick="show('NativeAvailableVariables')"><i>[Native Variables]</i></a>&nbsp;&nbsp;<a onclick="show('ShaderToyPortability')"><i>[ShaderToy Portability]</i></a>&nbsp;&nbsp;<a onclick="show('RecordResults')"><i>[Record]</i></a>
+
+
+
 </div>
-<div class="column is-one-third">
+</div>
+<div class="column is-one-quarter">
 <div class="container" style="align-content : center">
-<br>
-<img src="spectacles2021.png" width=140px height=80px>
+<br><br>
+<img src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/static/spectacles2021.png?raw=true" width=140px height=80px>
 <!-- 2) Button  -->
 <br>
-<button class="button is-normal is-light is-rounded" onclick="ajaxCall2('MainTextbox');">
+<button class="button is-normal is-light is-rounded" onclick="show('');ajaxCall2('MainTextbox');">
 <span class='popup'>
 <span class='popuptext' id='pop1'>
-&#128542 POST to server has failed &#128542, please retry<br> and/or contact:<i> gastonmazzei95 [at] gmail.com</i></span></span>
+<div align="right">⌧</div>
+&#128542 POST to server has failed &#128542, please retry<br> and/or contact:<i> gastonmazzei95 [at] gmail.com</i></span>
+<span class='popuptext-small' id='pop2'>
+<!--<div align="right" style="font-size: 9px;">⌧</div>-->
+Success!</span></span>
 Send to Server</button>
 
 
@@ -145,8 +215,67 @@ Send to Server</button>
 </div>
 </div>
 
+<div id="InstallApp" style="display: none">
+<section class="hero is-white">
+<p style="text-align:center"><b>How to: <u>Install the App</u></b></p>
+<div class="content">
+<ul>
+ <li>Download the compiled <mark>.apk</mark> app <u><a href='https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/raw/main/deviceApp/latest_app/ShaderToy-2.0.0-release.apk'>here</a></u>.</li>
+ <li>After pairing the device in Dev mode, install with <mark>adb install ShaderToy-2.0.0-release.apk</mark></li>
+ <li>Start the App with a UI using <mark>scrcpy</mark>. The App will request the latest shader from our Server.</li>
+ <li>In the application, tap on the right to re-query the latest shader, restart the time counter, and reposition the rendered rectangle to the user's front.</li>
+</ul>
+</div>
+</section>
+<br>
+</div>
+
+<div id="NativeAvailableVariables" style="display: none">
+<section class="hero is-white">
+<p style="text-align:center"><b>How to: <u>Native Available Variables</u></b></p>
+<div class="content">
+<ul>
+ <li></li>
+</ul>
+</div>
+</section>
+<br>
+</div>
+
+
+<div id="ShaderToyPortability" style="display: none">
+<section class="hero is-white">
+<p style="text-align:center"><b>How to: <u>ShaderToy Portability</u></b></p>
+<div class="content">
+<ul>
+ <li>Directly pasting ShaderToy shaders should work, conversions are done at the Server using the table below.</li>
+ <li>No textures are available. Texels are hardcoded to <marker>vec4(1.,1.,1.,1.)</marker>, and the <marker>float,vec2,vec3</marker> alternatives for the subsets using methods <marker>rgb</marker>.</li>
+ <li>Only single buffer.</li>
+</ul>
+ <!--<img></img>-->
+</div>
+</section>
+</div>
+
+<div id="RecordResults" style="display: none">
+<section class="hero is-white">
+<p style="text-align:center"><b>How to: <u>Record</u></b></p>
+<div class="content">
+<ul>
+ <li>While the app is running, in another terminal enter the device with <mark>adb shell</mark></li>
+ <li>Once inside, run <mark>/bin/screenrecord /sdcard/temp.mp4</mark> and end the recording with Ctrl+C</li>
+ <li>Exit the device with <mark>exit</mark>, and finally download it with <mark>adb pull /sdcard/temp.mp4 . </mark></li>
+</ul>
+</div>
+</section>
+</div>
+
+
+
+<br>
+<p style="text-align:center"><strong>Shader:</strong></p>
 <!-- 1) Textbox -->
-<textarea class="textarea has-fixed-size" id="MainTextbox" cols=30 rows=17>
+<textarea class="textarea has-fixed-size" id="MainTextbox" cols=30 rows=12>
 precision mediump float;
 
 out vec4 outColor;
@@ -160,12 +289,69 @@ void main() {
 
 
   </div>
-  <div class="column is-one-fifth">
+<!--  <div class="column is-two-fifths">-->
+<div class="column is-4 is-offset-8">
+
     <div>
 <p style="float: right;">
-some text
+<span class="icon is-small">
+<a href="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+</span>
 </p>
     </div>
+<br><br>
+
+<section class="hero has-text-centered">
+
+<a onclick="show('Examples')"><h2 class="subtitle">View Examples
+</h2></a>
+
+<section id="Examples" style="display: none;">
+
+Fractal
+
+
+<figure class="image is-2by1">
+  <img src="https://bulma.io/images/placeholders/128x128.png">
+</figure>
+
+
+https://www.shadertoy.com/view/Mss3Wf
+
+Twin Dragon
+
+https://www.shadertoy.com/view/MtXSWj
+
+
+Dragon (very heavy!)
+
+https://www.shadertoy.com/view/MsVGRc
+
+Glass bubble lamp fork
+
+https://www.shadertoy.com/view/WtdBDM
+
+Slime waterfall
+https://www.shadertoy.com/view/NdffRr
+
+Raspberry Ripple
+https://www.shadertoy.com/view/7ljGWw
+
+Pseudo Fluid
+https://www.shadertoy.com/view/7sjfWy
+
+Ferrofluid Array (heavy!)
+https://www.shadertoy.com/view/ftfcWB
+
+Spiral
+https://www.shadertoy.com/view/7tBcWR
+
+Turbulent Wind
+https://www.shadertoy.com/view/7ttGR4
+</section>
+
+
+</section>
   </div>
 </div>
 
@@ -221,10 +407,11 @@ function ajaxCall2(element){
         console.log("About to send", {data:"something"});
 	$.post("http://127.0.0.1:5000/update_shader?callback=?",text,function(){
           success = true;
+          popper(2); 
+	  ActivePopup = true;
+          t = new Date().getTime();
 	});
-        if (!success) {
-		popper(1);
-	}
+
 } 
 </script>
 

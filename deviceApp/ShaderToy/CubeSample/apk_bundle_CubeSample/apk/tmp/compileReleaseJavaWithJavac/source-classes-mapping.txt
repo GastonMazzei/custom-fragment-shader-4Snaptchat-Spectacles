@@ -1,0 +1,2 @@
+com/snaptech/CubeSample/BuildConfig.java
+ com.snaptech.CubeSample.BuildConfig

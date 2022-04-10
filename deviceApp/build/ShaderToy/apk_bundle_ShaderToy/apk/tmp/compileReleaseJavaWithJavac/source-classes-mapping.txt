@@ -1,0 +1,2 @@
+com/snaptech/ShaderToy/BuildConfig.java
+ com.snaptech.ShaderToy.BuildConfig

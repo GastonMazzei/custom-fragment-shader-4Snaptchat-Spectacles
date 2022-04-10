@@ -1,0 +1,22 @@
+[1/3] Building CXX object ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o
+FAILED: ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o 
+/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android28 --sysroot=/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DAK_ANDROID_RUNTIME_VARIANT=NativeActivity -DAK_MIN_LOG_SEV=6 -DShaderToy_EXPORTS -I/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/include -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/src -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include -isystem /home/m4zz31/Android/Sdk/ndk/23b/sources/android/native_app_glue -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -fexceptions -frtti -stdlib=libc++ -O3 -DNDEBUG -fPIC -Wall -Wextra -std=gnu++17 -MD -MT ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o -MF ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o.d -o ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o -c /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp:120:23: error: expected ';' at end of declaration
+        std::string addr = ""212.221.45.1:5000"; // "127.0.0.1:5000";
+                             ^
+                             ;
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp:120:61: warning: missing terminating '"' character [-Winvalid-pp-token]
+        std::string addr = ""212.221.45.1:5000"; // "127.0.0.1:5000";
+                                                                   ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp:124:21: error: use of undeclared identifier 'command'
+        const char * cmd = command.c_str();
+                           ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp:143:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+        LOG_INFO(receivedString.c_str());
+                 ^~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/ShaderToy/CubeDelegate.cpp:143:11: note: treat the string as an argument to avoid this
+        LOG_INFO(receivedString.c_str());
+                 ^
+                 "%s", 
+2 warnings and 2 errors generated.
+ninja: build stopped: subcommand failed.

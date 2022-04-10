@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snaptech.CubeSample"
+    android:versionCode="1"
+    android:versionName="2.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+
+    <application
+        android:extractNativeLibs="false"
+        android:hasCode="false"
+        android:label="CubeSample"
+        android:theme="@style/AppKitTheme" >
+        <activity
+            android:name="android.app.NativeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="CubeSample"
+            android:screenOrientation="landscape"
+            android:turnScreenOn="true" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="CubeSample" />
+            <meta-data
+                android:name="android.app.second_layer_libname"
+                android:value="" />
+            <meta-data
+                android:name="android.app.second_layer_packagename"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.qti.intent.category.SNAPDRAGON_VR" />
+                <category android:name="com.snap.intent.category.SPECTACLES" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

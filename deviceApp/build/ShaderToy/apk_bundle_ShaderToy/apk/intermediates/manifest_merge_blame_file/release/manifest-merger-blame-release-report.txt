@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.snaptech.ShaderToy"
+4    android:versionCode="1"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:7:5-81
+11-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:8:5-67
+12-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:9:5-65
+13-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:9:22-62
+14
+15    <uses-feature
+15-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:10:5-85
+16        android:name="android.hardware.camera"
+16-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:10:19-57
+17        android:required="true" />
+17-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:10:59-82
+18    <uses-feature
+18-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:11:5-88
+19        android:name="android.hardware.camera.any"
+19-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:11:19-61
+20        android:required="true" />
+20-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:11:62-85
+21
+22    <application
+22-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:12:5-38:19
+23        android:extractNativeLibs="false"
+23-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:14:36-69
+24        android:hasCode="false"
+24-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:13:9-32
+25        android:label="ShaderToy"
+25-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:14:9-34
+26        android:theme="@style/AppKitThemeAlwaysOn" >
+26-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:15:9-51
+27        <activity
+27-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:16:9-37:20
+28            android:name="android.app.NativeActivity"
+28-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:17:13-54
+29            android:configChanges="orientation|keyboardHidden"
+29-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:18:13-63
+30            android:label="ShaderToy"
+30-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:19:13-38
+31            android:screenOrientation="landscape"
+31-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:21:13-50
+32            android:turnScreenOn="true" >
+32-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:20:13-40
+33            <meta-data
+33-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:22:13-24:45
+34                android:name="android.app.lib_name"
+34-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:23:17-52
+35                android:value="ShaderToy" />
+35-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:24:17-42
+36            <meta-data
+36-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:25:13-27:36
+37                android:name="android.app.second_layer_libname"
+37-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:26:17-64
+38                android:value="" />
+38-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:27:17-33
+39            <meta-data
+39-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:28:13-30:36
+40                android:name="android.app.second_layer_packagename"
+40-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:29:17-68
+41                android:value="" />
+41-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:30:17-33
+42
+43            <intent-filter>
+43-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:31:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:32:17-69
+44-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:32:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:33:17-77
+46-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:33:27-74
+47                <category android:name="com.qti.intent.category.SNAPDRAGON_VR" />
+47-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:34:17-82
+47-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:34:27-79
+48                <category android:name="com.snap.intent.category.SPECTACLES" />
+48-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:35:17-79
+48-->/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/package_directory/_CPack_Packages/Android/External/ShaderToy-2.0.0-Android/apk/AndroidManifest.xml:35:27-77
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

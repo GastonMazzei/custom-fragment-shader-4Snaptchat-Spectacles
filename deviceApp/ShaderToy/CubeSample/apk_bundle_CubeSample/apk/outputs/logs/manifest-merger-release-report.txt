@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:3:5-38
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:6:5-30
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:5:5-28
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:10:5-85
+	android:required
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:10:59-82
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:10:19-57
+uses-feature#android.hardware.camera.any
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:11:5-88
+	android:required
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:11:62-85
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:11:19-61
+application
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:12:5-38:19
+	android:extractNativeLibs
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:14:37-70
+	android:label
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:14:9-35
+	android:hasCode
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:13:9-32
+	android:theme
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:15:9-43
+activity#android.app.NativeActivity
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:16:9-37:20
+	android:screenOrientation
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:21:13-50
+	android:label
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:19:13-39
+	android:turnScreenOn
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:20:13-40
+	android:configChanges
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:18:13-63
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:17:13-54
+meta-data#android.app.lib_name
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:22:13-24:46
+	android:value
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:24:17-43
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:23:17-52
+meta-data#android.app.second_layer_libname
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:25:13-27:36
+	android:value
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:27:17-33
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:26:17-64
+meta-data#android.app.second_layer_packagename
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:29:17-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.qti.intent.category.SNAPDRAGON_VR+category:name:com.snap.intent.category.SPECTACLES
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:31:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:33:27-74
+category#com.qti.intent.category.SNAPDRAGON_VR
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:34:27-79
+category#com.snap.intent.category.SPECTACLES
+ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml:35:27-77
+uses-sdk
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		ADDED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml
+		INJECTED from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeSample/apk_bundle_CubeSample/package_directory/_CPack_Packages/Android/External/CubeSample-2.0.0-Android/apk/AndroidManifest.xml

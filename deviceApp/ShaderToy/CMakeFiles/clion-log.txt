@@ -1,0 +1,78 @@
+/opt/clion-2021.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G Ninja /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode
+CMake Error: The current CMakeCache.txt directory /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy/ShaderToy/CMakeCache.txt is different than the directory /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+-- The C compiler identification is Clang 12.0.8
+-- The CXX compiler identification is Clang 12.0.8
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSPlatformGraphics: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformGraphics/VOSPlatformGraphicsConfig.cmake'
+-- PlatformSensors: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformSensors/VOSPlatformSensorsConfig.cmake'
+-- VOSAppKit: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/lib/cmake/VOSAppKit/VOSAppKitConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSPlatformGraphics: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformGraphics/VOSPlatformGraphicsConfig.cmake'
+-- PlatformSensors: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformSensors/VOSPlatformSensorsConfig.cmake'
+-- VOSAppKit: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/lib/cmake/VOSAppKit/VOSAppKitConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSPlatformGraphics: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformGraphics/VOSPlatformGraphicsConfig.cmake'
+-- PlatformSensors: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformSensors/VOSPlatformSensorsConfig.cmake'
+-- Target 'CubeSample': Added Android bundle target 'RedCubeSampleBundleCreate'
+-- Target 'CubeSample': Added Android bundle archive target 'RedCubeSampleBundleArchive'
+-- Target 'CubeSample': Added Android bundle target 'RedCubeSampleBundleRun'
+-- Target 'CubeSample': Added Android bundle target 'RedCubeSampleBundleStop'
+-- Target 'CubeSample': Added Android bundle target 'RedCubeSampleBundleUninstall'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSPlatformCalibration: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformCalibration/VOSPlatformCalibrationConfig.cmake'
+-- VOSVisionCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSVisionCore/VOSVisionCoreConfig.cmake'
+-- VOSSlamCore: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSSlamCore/VOSSlamCoreConfig.cmake'
+-- VOSPlatformGraphics: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformGraphics/VOSPlatformGraphicsConfig.cmake'
+-- PlatformSensors: using CMake config file '/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/lib/cmake/VOSPlatformSensors/VOSPlatformSensorsConfig.cmake'
+-- Target 'CubeSample': Added Android bundle target 'CubeSampleBundleCreate'
+-- Target 'CubeSample': Added Android bundle archive target 'CubeSampleBundleArchive'
+-- Target 'CubeSample': Added Android bundle target 'CubeSampleBundleRun'
+-- Target 'CubeSample': Added Android bundle target 'CubeSampleBundleStop'
+-- Target 'CubeSample': Added Android bundle target 'CubeSampleBundleUninstall'
+-- AppKit's Hawaii runtime not enabled, won't generate hawaii zip bundler
+-- AppKit's Hawaii runtime not enabled, won't generate hawaii zip bundler
+-- Configuring incomplete, errors occurred!
+See also "/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy/ShaderToy/CMakeFiles/CMakeOutput.log".

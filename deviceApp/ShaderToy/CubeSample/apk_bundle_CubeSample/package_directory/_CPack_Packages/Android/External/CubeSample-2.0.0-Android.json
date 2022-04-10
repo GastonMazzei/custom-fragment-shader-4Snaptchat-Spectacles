@@ -1,0 +1,27 @@
+{
+  "buildConfig" : "Release",
+  "componentGroups" : {},
+  "components" : {},
+  "errorOnAbsoluteInstallDestination" : false,
+  "formatVersionMajor" : 1,
+  "formatVersionMinor" : 0,
+  "installationTypes" : {},
+  "packageDescriptionFile" : "/snap/cmake/1005/share/cmake-3.22/Templates/CPack.GenericDescription.txt",
+  "packageDescriptionSummary" : "SampleCode built using CMake",
+  "packageName" : "CubeSample",
+  "packageVersion" : "2.0.0",
+  "projects" : 
+  [
+    {
+      "component" : "CubeSampleComponent",
+      "components" : [],
+      "directory" : "/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample",
+      "installationTypes" : [],
+      "projectName" : "CubeSample",
+      "subDirectory" : "/"
+    }
+  ],
+  "setDestdir" : false,
+  "stripFiles" : true,
+  "warnOnAbsoluteInstallDestination" : false
+}

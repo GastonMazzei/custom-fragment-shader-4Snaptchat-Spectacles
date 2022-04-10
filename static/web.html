@@ -1,0 +1,248 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+<!--
+  <link href="style.css" rel="stylesheet" />
+-->
+
+  <!-- 0) Scripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+	// script goes here
+	console.log("Hi! we are on :-)");
+  </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+
+
+
+
+
+<style>
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+
+
+
+<script>
+// When the user clicks on div, open the popup
+function popper(id) {
+  console.log("pop" + id.toString());
+  var popup = document.getElementById("pop" + id.toString());
+  popup.classList.toggle("show");
+}
+</script>
+
+
+
+</head>
+<body>
+
+ <section class="hero is-warning">
+
+<div class="columns is-gapless">
+  <div class="column is-one-fifth">
+    
+  </div>
+  <div class="column is-three-fifths">
+
+<div class="columns is-gapless">
+<div class="column is-two-thirds">
+    <div class="container">
+<br><br>
+      <h1 class="title">
+        Custom Shader for Spectacles
+
+      </h1>
+      <p class="subtitle">
+        Paste code from <a href='https://www.shadertoy.com/'><strong>ShaderToy</strong></a> and send to server, then just run the App!
+
+      </p>
+	
+<br>
+    </div>
+</div>
+<div class="column is-one-third">
+<div class="container" style="align-content : center">
+<br>
+<img src="spectacles2021.png" width=140px height=80px>
+<!-- 2) Button  -->
+<br>
+<button class="button is-normal is-light is-rounded" onclick="ajaxCall2('MainTextbox');">
+<span class='popup'>
+<span class='popuptext' id='pop1'>
+&#128542 POST to server has failed &#128542, please retry<br> and/or contact:<i> gastonmazzei95 [at] gmail.com</i></span></span>
+Send to Server</button>
+
+
+
+
+</div>
+</div>
+</div>
+
+<!-- 1) Textbox -->
+<textarea class="textarea has-fixed-size" id="MainTextbox" cols=30 rows=17>
+precision mediump float;
+
+out vec4 outColor;
+in vec3 frgColor;
+uniform float iGlobalTime;
+
+void main() {
+    outColor = vec4(0.5,0.5,0.5, 1.0f);
+}
+</textarea>
+
+
+  </div>
+  <div class="column is-one-fifth">
+    <div>
+<p style="float: right;">
+some text
+</p>
+    </div>
+  </div>
+</div>
+
+
+<br>
+  </section>
+
+
+
+
+
+
+
+
+<!-- 3) Script triggered by button -->
+<!--<p id="demo"></p>--> <!-- tag for something to happen -->
+<script>
+function myFunction() {
+  // something happens
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+
+
+
+function ajaxCall(element){
+    var text = $(element).val();
+    $.ajax({
+      url: "127.0.0.1:5000/update_shader",
+      type: "post",
+      data: {jsdata: text},
+      success: function(response) {
+	console.log("Result is successfull!");
+//	d = response["data"];
+//	myChart.destroy();
+//	armarChart(d[0]);
+//	myRadarChart.destroy();
+//	armarRadarChart(d[1]);
+//	myBarChart.destroy();
+//	armarBarChart(d[2]);
+      },
+      error: function(xhr) {
+	console.log('an error has occurred!');
+      }
+    });
+} 
+
+
+function ajaxCall2(element){
+	//var text = "something";//$(element).val();
+	var text = document.getElementById(element).value;
+        var success = false;
+        console.log("About to send", {data:"something"});
+	$.post("http://127.0.0.1:5000/update_shader?callback=?",text,function(){
+          success = true;
+	});
+        if (!success) {
+		popper(1);
+	}
+} 
+</script>
+
+
+
+   <section class="hero is-dark">
+      <div class="hero-body has-text-white">
+           <p>
+           <center>
+           
+            Powered by <strong><u><a href="https://github.com/GastonMazzei">Gaston</a></u> <u><a href='https://gastonmazzei.github.io/'>Mazzei</a></u></strong>
+           
+           </center>
+           </p>
+      </div>
+    </section>
+
+
+</body>
+
+</html>

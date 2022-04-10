@@ -1,0 +1,194 @@
+[1/4] Building CXX object CubeSample/CMakeFiles/CubeSample.dir/Handlers.cpp.o
+FAILED: CubeSample/CMakeFiles/CubeSample.dir/Handlers.cpp.o 
+/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android28 --sysroot=/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DAK_ANDROID_RUNTIME_VARIANT=NativeActivity -DAK_MIN_LOG_SEV=6 -DCubeSample_EXPORTS -I/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/include -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/src -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include -isystem /home/m4zz31/Android/Sdk/ndk/23b/sources/android/native_app_glue -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O3 -DNDEBUG -fPIC -Wall -Wextra -std=gnu++17 -MD -MT CubeSample/CMakeFiles/CubeSample.dir/Handlers.cpp.o -MF CubeSample/CMakeFiles/CubeSample.dir/Handlers.cpp.o.d -o CubeSample/CMakeFiles/CubeSample.dir/Handlers.cpp.o -c /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:11:73: warning: unused parameter 'planes' [-Wunused-parameter]
+void PlaneAPIHandler::perform_action_in_some_way(SCMultiPlaneDataArray &planes, uint32_t numPlanes){
+                                                                        ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:11:90: warning: unused parameter 'numPlanes' [-Wunused-parameter]
+void PlaneAPIHandler::perform_action_in_some_way(SCMultiPlaneDataArray &planes, uint32_t numPlanes){
+                                                                                         ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:59:49: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                            if (DEBUG) LOG_INFO(("numPlanes is " + std::to_string(numPlanes)).c_str());
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:59:49: note: treat the string as an argument to avoid this
+                            if (DEBUG) LOG_INFO(("numPlanes is " + std::to_string(numPlanes)).c_str());
+                                                ^
+                                                "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:60:49: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                            if (DEBUG) LOG_INFO(("ix is " + std::to_string(i)).c_str());
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:60:49: note: treat the string as an argument to avoid this
+                            if (DEBUG) LOG_INFO(("ix is " + std::to_string(i)).c_str());
+                                                ^
+                                                "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:61:49: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                            if (DEBUG) LOG_INFO(("UID is " + std::to_string(detectedId)).c_str());
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:61:49: note: treat the string as an argument to avoid this
+                            if (DEBUG) LOG_INFO(("UID is " + std::to_string(detectedId)).c_str());
+                                                ^
+                                                "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:62:49: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                            if (DEBUG) LOG_INFO(("flags is " + std::to_string(flags)).c_str());
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:62:49: note: treat the string as an argument to avoid this
+                            if (DEBUG) LOG_INFO(("flags is " + std::to_string(flags)).c_str());
+                                                ^
+                                                "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:63:49: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                            if (DEBUG) LOG_INFO(("convexHullNpoints is " + std::to_string(convexHullNpoints)).c_str());
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:63:49: note: treat the string as an argument to avoid this
+                            if (DEBUG) LOG_INFO(("convexHullNpoints is " + std::to_string(convexHullNpoints)).c_str());
+                                                ^
+                                                "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:14:77: warning: unused parameter 'callbackContext' [-Wunused-parameter]
+void PlaneCallback (SCMultiPlaneDataArray planes, uint32_t numPlanes, void* callbackContext){
+                                                                            ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/Handlers.cpp:134:84: warning: unused parameter 'callbackContext' [-Wunused-parameter]
+void DeletedPlaneCallback (SCMultiPlaneDataArray planes, uint32_t numPlanes, void* callbackContext){
+                                                                                   ^
+4 warnings and 5 errors generated.
+[2/4] Building CXX object CubeSample/CMakeFiles/CubeSample.dir/CubeDelegate.cpp.o
+FAILED: CubeSample/CMakeFiles/CubeSample.dir/CubeDelegate.cpp.o 
+/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android28 --sysroot=/home/m4zz31/Android/Sdk/ndk/23b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DAK_ANDROID_RUNTIME_VARIANT=NativeActivity -DAK_MIN_LOG_SEV=6 -DCubeSample_EXPORTS -I/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/include -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/src -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/external -isystem /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include -isystem /home/m4zz31/Android/Sdk/ndk/23b/sources/android/native_app_glue -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O3 -DNDEBUG -fPIC -Wall -Wextra -std=gnu++17 -MD -MT CubeSample/CMakeFiles/CubeSample.dir/CubeDelegate.cpp.o -MF CubeSample/CMakeFiles/CubeSample.dir/CubeDelegate.cpp.o.d -o CubeSample/CMakeFiles/CubeSample.dir/CubeDelegate.cpp.o -c /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:49:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:49:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:67:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:67:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:79:2: warning: 'SCVioConfigEnableLocalPointCloud' is deprecated: Use 'SCSessionConfigEnableLocalPointCloud' instead. [-Wdeprecated-declarations]
+        SCVioConfigEnableLocalPointCloud();
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        SCSessionConfigEnableLocalPointCloud
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include/SlamCore/SCSession.h:172:1: note: 'SCVioConfigEnableLocalPointCloud' has been explicitly marked deprecated here
+SC_PUBLIC_FUNCTION_DEPRECATED_FOR(SCResult, SCSessionConfigEnableLocalPointCloud)
+^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include/SlamCore/SCBase.h:104:79: note: expanded from macro 'SC_PUBLIC_FUNCTION_DEPRECATED_FOR'
+#define SC_PUBLIC_FUNCTION_DEPRECATED_FOR(rval, f) SC_EXTERN_C SC_EXPORT rval SC_DEPRECATED_FOR(f) SC_CDECL
+                                                                              ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-api-android/include/SlamCore/SCBase.h:53:45: note: expanded from macro 'SC_DEPRECATED_FOR'
+#define SC_DEPRECATED_FOR(f) __attribute__((deprecated("Use '" #f "' instead.", #f)))
+                                            ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:93:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:93:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:111:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:111:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:129:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:129:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:146:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:146:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:163:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:163:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(result).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:290:20: warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+        for (auto i = 0; i<L; i++){
+                         ~^~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:325:13: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(std::to_string(pId).c_str());
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:325:13: note: treat the string as an argument to avoid this
+                        LOG_INFO(std::to_string(pId).c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:329:14: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                                LOG_INFO(std::to_string(Npoints).c_str());
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:329:14: note: treat the string as an argument to avoid this
+                                LOG_INFO(std::to_string(Npoints).c_str());
+                                         ^
+                                         "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:341:14: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                                LOG_INFO(std::to_string(result).c_str());
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:341:14: note: treat the string as an argument to avoid this
+                                LOG_INFO(std::to_string(result).c_str());
+                                         ^
+                                         "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:343:14: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                                LOG_INFO(std::to_string(pointcloud_calls).c_str());
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:343:14: note: treat the string as an argument to avoid this
+                                LOG_INFO(std::to_string(pointcloud_calls).c_str());
+                                         ^
+                                         "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:345:14: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                                LOG_INFO(std::to_string(pointcloud_errors).c_str());
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:345:14: note: treat the string as an argument to avoid this
+                                LOG_INFO(std::to_string(pointcloud_errors).c_str());
+                                         ^
+                                         "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:461:17: error: format string is not a string literal (potentially insecure) [-Werror,-Wformat-security]
+                        LOG_INFO(result.c_str());
+                                 ^~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:461:17: note: treat the string as an argument to avoid this
+                        LOG_INFO(result.c_str());
+                                 ^
+                                 "%s", 
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:384:25: warning: variable 'removedCallbackContext' is uninitialized when used here [-Wuninitialized]
+                                                                                                                                                                                                removedCallbackContext);
+                                                                                                                                                                                                ^~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:364:34: note: initialize the variable 'removedCallbackContext' to silence this warning
+                                void * removedCallbackContext;
+                                                             ^
+                                                              = nullptr
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:379:25: warning: variable 'updatedCallbackContext' is uninitialized when used here [-Wuninitialized]
+                                                                                                                                                                                                updatedCallbackContext);
+                                                                                                                                                                                                ^~~~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:362:34: note: initialize the variable 'updatedCallbackContext' to silence this warning
+                                void * updatedCallbackContext;
+                                                             ^
+                                                              = nullptr
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:374:25: warning: variable 'addedCallbackContext' is uninitialized when used here [-Wuninitialized]
+                                                                                                                                                                                                addedCallbackContext);
+                                                                                                                                                                                                ^~~~~~~~~~~~~~~~~~~~
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:363:32: note: initialize the variable 'addedCallbackContext' to silence this warning
+                                void * addedCallbackContext;
+                                                           ^
+                                                            = nullptr
+In file included from /home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.cpp:4:
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.hpp:114:42: warning: private field 'current_flag' is not used [-Wunused-private-field]
+        SCMultiPlaneDetectionConfigurationFlags current_flag;
+                                                ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.hpp:115:24: warning: private field 'planes' is not used [-Wunused-private-field]
+        SCMultiPlaneDataArray planes;
+                              ^
+/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/SampleCode/CubeSample/CubeDelegate.hpp:116:11: warning: private field 'numPlanes' is not used [-Wunused-private-field]
+        uint32_t numPlanes;
+                 ^
+8 warnings and 13 errors generated.
+ninja: build stopped: subcommand failed.

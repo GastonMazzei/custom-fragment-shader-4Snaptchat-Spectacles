@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/apk/intermediates/res/merged/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/vos-app-kit-android/resources/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,123",
+                        "endLines": "3,7",
+                        "endColumns": "13,13",
+                        "endOffsets": "118,287"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endLines": "4,8",
+                        "endColumns": "13,13",
+                        "endOffsets": "157,326"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+--tracking
+6dof
+--clear-color
+[0.0, 0.0, 0.0, 0.0]

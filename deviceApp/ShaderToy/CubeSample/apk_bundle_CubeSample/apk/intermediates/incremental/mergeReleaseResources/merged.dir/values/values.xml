@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppKitTheme">
+        <item name="android:windowDisablePreview">true</item>
+     </style>
+    <style name="AppKitThemeAlwaysOn">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:keepScreenOn">true</item>
+     </style>
+</resources>

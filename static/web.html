@@ -186,7 +186,7 @@ if (ActivePopup && (new Date().getTime() > t + 1000))
       </p>
 
 	
-	<i>How to:</i>&nbsp;&nbsp;<a onclick="show('InstallApp')"><i>[Install App]</i></a>&nbsp;&nbsp;<a onclick="show('NativeAvailableVariables')"><i>[Native Variables]</i></a>&nbsp;&nbsp;<a onclick="show('ShaderToyPortability')"><i>[ShaderToy Portability]</i></a>&nbsp;&nbsp;<a onclick="show('RecordResults')"><i>[Record]</i></a>
+	<i>How to:</i>&nbsp;&nbsp;<a onclick="show('InstallApp')"><i>[Install App]</i></a>&nbsp;&nbsp;<a onclick="show('ShaderToyPortability')"><i>[ShaderToy Portability]</i></a>&nbsp;&nbsp;<a onclick="show('NativeAvailableVariables')"><i>[Native Variables]</i></a>&nbsp;&nbsp;<a onclick="show('RecordResults')"><i>[Record]</i></a>
 
 
 
@@ -235,7 +235,8 @@ Send to Server</button>
 <p style="text-align:center"><b>How to: <u>Native Available Variables</u></b></p>
 <div class="content">
 <ul>
- <li></li>
+ <li>Besides copy-pasting from ShaderToy, you can directly code using native variables.</li>
+ <li>The default shader shows them all and explains them</li>
 </ul>
 </div>
 </section>
@@ -251,6 +252,9 @@ Send to Server</button>
  <li>Directly pasting ShaderToy shaders should work, conversions are done at the Server using the table below.</li>
  <li>No textures are available. Texels are hardcoded to <mark>vec4(1.,1.,1.,1.)</mark> (or <mark>float(1.), vec2(1.,1.), vec3(1.,1.,1.)</mark> when required).</li>
  <li>Only single buffer.</li>
+<div style="text-align: center">
+<img src='https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/static/table-of-replacements.png?raw=true' width=550>
+</div>
 </ul>
  <!--<img></img>-->
 </div>
@@ -276,14 +280,22 @@ Send to Server</button>
 <p style="text-align:center"><strong>Shader:</strong></p>
 <!-- 1) Textbox -->
 <textarea class="textarea has-fixed-size" id="MainTextbox" cols=30 rows=12>
-precision mediump float;
-
-out vec4 outColor;
-in vec3 frgColor;
-uniform float iGlobalTime;
+precision mediump float;              // dont use "frgColor", it is a reserved keyword
+out vec4 outColor;                         // the variable to write to that defines the screen color
+uniform float iGlobalTime;         // a counter, in render count units. 
 
 void main() {
-    outColor = vec4(0.5,0.5,0.5, 1.0f);
+
+    // Example:
+    // gl_FragCoord usage: "normalized coordinates"
+    // 
+    vec2 uv = ( gl_FragCoord.xy - vec2(162,86) ) / vec2(540, 584); 
+
+    // Example: 
+    // iGlobalTime usage: "modulating intensity"
+    //
+    float freq = 100. / 2. / 3.14 ;
+    outColor = vec4(uv.x, uv.y, 0., 1.0f) * abs( sin(iGlobalTime * freq) );
 }
 </textarea>
 

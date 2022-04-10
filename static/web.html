@@ -249,7 +249,7 @@ Send to Server</button>
 <div class="content">
 <ul>
  <li>Directly pasting ShaderToy shaders should work, conversions are done at the Server using the table below.</li>
- <li>No textures are available. Texels are hardcoded to <marker>vec4(1.,1.,1.,1.)</marker>, and the <marker>float,vec2,vec3</marker> alternatives for the subsets using methods <marker>rgb</marker>.</li>
+ <li>No textures are available. Texels are hardcoded to <mark>vec4(1.,1.,1.,1.)</mark> (or <mark>float(1.), vec2(1.,1.), vec3(1.,1.,1.)</mark> when required).</li>
  <li>Only single buffer.</li>
 </ul>
  <!--<img></img>-->
@@ -303,51 +303,86 @@ void main() {
 
 <section class="hero has-text-centered">
 
-<a onclick="show('Examples')"><h2 class="subtitle">View Examples
+<a onclick="show('Examples')"><h2 class="subtitle"><u>Click</u> to View ShaderToy Examples
 </h2></a>
 
 <section id="Examples" style="display: none;">
 
-Fractal
+<a href='https://www.shadertoy.com/view/Mss3Wf'><strong>Fractal <i>(<u>code</u>)</i></strong></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/fractal/fractal.png?raw=true">
+</div>
 
 
-<figure class="image is-2by1">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
+
+<!--
+<iframe class="has-ratio" width="10" height="30" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+
+<figure class="image is-16by9">
+  <iframe class="has-ratio" width="10" height="30" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
 </figure>
+-->
+
+<a href='https://www.shadertoy.com/view/MtXSWj'><strong>Twin Dragon <i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/twin-dragon/TwinDragon.png?raw=true">
+</div>
 
 
-https://www.shadertoy.com/view/Mss3Wf
 
-Twin Dragon
+<a href='https://www.shadertoy.com/view/WtdBDM'><strong>Glass Bubble<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/glass-buble/glass-buble.png?raw=true">
+</div>
 
-https://www.shadertoy.com/view/MtXSWj
 
 
-Dragon (very heavy!)
+<a href='https://www.shadertoy.com/view/NdffRr'><strong>Slime Waterfall<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/slime-waterfall/slime-waterfall.png?raw=true">
+</div>
 
-https://www.shadertoy.com/view/MsVGRc
 
-Glass bubble lamp fork
+<a href='https://www.shadertoy.com/view/7ljGWw'><strong>Raspberry Ripple<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/raspberry-ripple/raspberry-ripple.png?raw=true">
+</div>
 
-https://www.shadertoy.com/view/WtdBDM
 
-Slime waterfall
-https://www.shadertoy.com/view/NdffRr
+<a href='https://www.shadertoy.com/view/MsVGRc'><strong>Dragon<i></strong> (<u>code</u>)</i></a> <i>[very heavy!]</i>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/dragon/dragon.png?raw=true">
+</div>
 
-Raspberry Ripple
-https://www.shadertoy.com/view/7ljGWw
 
-Pseudo Fluid
-https://www.shadertoy.com/view/7sjfWy
+<a href='https://www.shadertoy.com/view/7sjfWy'><strong>Pseudo Fluid<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/pseudo-fluid/pseudo-fluid.png?raw=true">
+</div>
 
-Ferrofluid Array (heavy!)
-https://www.shadertoy.com/view/ftfcWB
 
-Spiral
-https://www.shadertoy.com/view/7tBcWR
+<a href='https://www.shadertoy.com/view/ftfcWB'><strong>Ferrofluid Array<i></strong> (<u>code</u>)</i></a> <i>[heavy!]</i>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/ferrofluid-array/ferrofluid-array.png?raw=true">
+</div>
 
-Turbulent Wind
-https://www.shadertoy.com/view/7ttGR4
+
+<a href='https://www.shadertoy.com/view/7tBcWR'><strong>Spiral<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/spiral/spiral.png?raw=true">
+</div>
+
+
+<a href='https://www.shadertoy.com/view/7ttGR4'><strong>Turbulent Wind<i></strong> (<u>code</u>)</i></a>
+<div style="text-align: center">
+<img width=200 src="https://github.com/GastonMazzei/custom-fragment-shader-4Snaptchat-Spectacles/blob/main/examples/turbulent-wind/turbulent-wind.png?raw=true">
+</div>
+
+
+
+
+
+
 </section>
 
 

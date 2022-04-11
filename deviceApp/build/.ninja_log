@@ -45,3 +45,11 @@
 814	1013	1649545619	ShaderToy/libShaderToy.so	909316c719051300
 1013	10923	1649545629	ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b
 1013	10923	1649545629	/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b
+23	1474	1649604178	ShaderToy/CMakeFiles/ShaderToy.dir/CubeGL.cpp.o	1d87098a33569fca
+1474	1709	1649604178	ShaderToy/libShaderToy.so	909316c719051300
+1709	25035	1649604201	ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b
+1709	25035	1649604201	/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b
+21	822	1649682627	ShaderToy/CMakeFiles/ShaderToy.dir/CubeDelegate.cpp.o	711636dc460afc2c
+822	1032	1649682627	ShaderToy/libShaderToy.so	909316c719051300
+1032	21255	1649682647	ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b
+1032	21255	1649682647	/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy-2.0.0-release.apk	f5d242a67e28fd0b

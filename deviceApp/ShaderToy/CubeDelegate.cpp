@@ -110,14 +110,21 @@ CubeDelegate::update_shader()
 	std::string receivedString = "";
 	
 
-	// Receive data       VENISE model TPLink 2 for my PC's MAC address  is 192.168.2.102:5000
-	//                                          a new paired machine should probably be 
-	//                                                                      192.168.2.103:5000
+	// Define the endpoints
+	//
+	// our website is connected to 67.205.140.247:81
+	// the UI is at  https://gastonmazzei.github.io/SpectaclesShader/
+	// 
+	// the local version of our server could be ran
+	// at VENISE using 
+	//                    VENISE model TPLink 2 (for my PC's MAC address it was 192.168.2.102:5000
+	//                                          a new paired machine after modem reset could be 
+	//                                                                      192.168.2.100:5000 )
 	//                                          [ please ask Mr. Ladeveuze for help ]
 	//
-	//                    ECLA Campus Massy-Palaiseau for my MAC address is 212.221.45.1:5000
+	//                    ECLA Campus Massy-Palaiseau for my MAC address was 212.221.45.1:5000
 	//
-	std::string addr =  "212.221.45.1:5000"; // "127.0.0.1:5000";
+	std::string addr =  "67.205.140.247:81"; // URL goes here
 	std::string command = "curl --header \"Content-Type: application/json\" \
 		                            --request POST  http://" + addr + "/latest_shader";
 	const int MAXLENGTH = 200000;

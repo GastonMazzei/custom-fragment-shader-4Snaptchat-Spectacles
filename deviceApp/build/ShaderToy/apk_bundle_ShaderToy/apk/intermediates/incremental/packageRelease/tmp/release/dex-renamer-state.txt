@@ -1,4 +1,4 @@
-#Sun Apr 10 01:07:09 CEST 2022
+#Mon Apr 11 15:10:46 CEST 2022
 base.0=/home/m4zz31/Snapchat/Dev/spectacles-native-sdk/ShaderToy-Cube/build/ShaderToy/apk_bundle_ShaderToy/apk/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

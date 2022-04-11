@@ -432,6 +432,15 @@ std::vector<GLfloat> polyVertices = {
 };
 
 
+std::vector<GLfloat> largerPolyVertices = {
+        // clang-format off
+        -2.0f, -2.0f, .0f,
+        -2.0f,  2.0f, .0f,
+        2.0f,  2.0f, .0f,
+        2.0f, -2.0f, .0f
+        // clang-format on
+};
+
 std::vector<GLushort> polyIndices = {
         // clang-format off
         0, 2, 1,
@@ -468,7 +477,7 @@ bool
 CubeGL::init(float sizeInMeters, ColorMode colorMode, const uint32_t numActiveViews)
 {
     // apply scale
-    std::vector<GLfloat> verticesScaled = polyVertices;//cubeVertices;
+    std::vector<GLfloat> verticesScaled = largerPolyVertices; //polyVertices;//cubeVertices;
     for (auto& v : verticesScaled)
         v *= sizeInMeters;
 

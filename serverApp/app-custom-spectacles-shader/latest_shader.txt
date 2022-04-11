@@ -1,0 +1,16 @@
+in vec3 frgColor;
+precision mediump float;
+// dont use "frgColor", it is a reserved keyword
+out vec4 outColor; // the variable to write to that defines the screen color
+uniform float iGlobalTime; // a counter, in render count units. 
+void main() {
+    // Example:
+    // gl_FragCoord usage: "normalized coordinates"
+    // 
+    vec2 uv = ( gl_FragCoord.xy - vec2(162,86) ) / vec2(540, 584); 
+    // Example: 
+    // iGlobalTime usage: "modulating intensity"
+    //
+    float freq = 100. / 2. / 3.14 ;
+    outColor = vec4(uv.x,uv.y,0., 1.0f) * abs( sin(iGlobalTime * freq) );
+}
